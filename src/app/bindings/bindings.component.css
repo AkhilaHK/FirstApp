@@ -1,0 +1,18 @@
+img{
+    border-radius:25px;
+    box-shadow: 2 2 2 grey;
+    margin-left: 15px;
+}
+
+.userdiv{
+    width: 110px;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px 2px greenyellow;
+    margin: 4px 5px 10px 7px;
+
+}

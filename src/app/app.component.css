@@ -1,0 +1,15 @@
+.navbar{
+    padding: 15px;
+    background-color: blue;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 15px;
+}
+
+a{
+    color:whitesmoke;
+    padding: 20px;
+}
+
+span{
+    color: silver;
+}

@@ -1,0 +1,22 @@
+<p>USER INFORMATION!</p>
+<button (click)="ShowComments()">Inforamtions</button>
+<button (click)="AccessWebApi()">Access Web API</button>
+<hr/>
+<p>========Accessing WebApi============</p>
+<h5>{{webApiData | json}}</h5>
+<ul>
+    <li *ngFor="let comment of comments">
+        <div style="background-color: pink;color:black">{{comment.id}}</div>
+        <div style="color:red; font-style: italic;">{{comment.name}}</div>
+        <div style="color:red; font-style: italic;" >{{comment.username}}</div>
+        <div style="color:red; font-style: italic;">{{comment.email}}</div>
+        <div style="color:green; font-style: italic;">{{comment.address.street}}</div>
+        <div style="color:green; font-style: italic;">{{comment.address.suite}}</div>
+        <div style="color:green; font-style: italic;">{{comment.address.city}}</div>
+        <div style="color:green; font-style: italic;">{{comment.address.zipcode}}</div>
+        <div style="color:purple; font-style: italic;">{{comment.address.geo.lat}}</div>
+        <div style="color:purple; font-style: italic;">{{comment.address.geo.lng}}</div>
+        
+        <hr/>
+    </li>
+</ul>
